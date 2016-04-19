@@ -1,0 +1,30 @@
+
+// Header
+<div ng-controller="MyCtrl">
+<ion-header-bar class="bar-positive" >
+      <h1 class="title">Timesheet</h1>
+      <div class="buttons">
+        <button class="button button-icon" ng-click="newTask()">
+      <i class="icon ion-compose"></i>
+    </button>
+      </div>
+    </ion-header-bar>
+
+<ion-content>
+
+<ion-list>
+            <ion-item ng-repeat="task in tasks "  ng-click="onTaskClick(task.id)">
+              <p>    {{task.description}}
+</p>
+            </ion-item>
+            
+          </ion-list>
+    
+    
+
+    </ion-content>
+</div>
+
+
+
+

@@ -1,0 +1,41 @@
+<div ng-controller="TaskCtrl">
+    <ion-header-bar class="bar-positive" >
+            <a class="button icon-left ion-chevron-left button-clear " ui-sref="home">Back</a>
+
+        <h1 class="title">Task Detail</h1>
+        <div class="buttons">
+    </div>
+    </ion-header-bar>
+
+    <ion-content>
+<!--       Details -->
+        <div class="card">
+            
+            <div class="item item-divider">
+                Date
+            </div>
+            <div class="item item-text-wrap">
+{{task.date }}            </div>
+        </div>
+                <div class="card">
+
+            <div class="item item-divider">
+                Project Name
+            </div>
+            <div class="item item-text-wrap">
+{{task.projectName }}            </div>
+        </div>
+                <div class="card">
+
+            <div class="item item-divider">
+                Task Description
+            </div>
+            <div class="item item-text-wrap">
+                <p>{{task.description }}</p>
+
+            </div>
+        </div>
+        
+        
+</ion-content>
+</div>

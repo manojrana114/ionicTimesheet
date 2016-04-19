@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Rana/iOS projects/IONIC/Timesheet/www/lib/ionic/js/ionic.min.js",
+        "/Users/Rana/iOS projects/IONIC/Timesheet/www/lib/ionic/js/ionic.js",
+        "/Users/Rana/iOS projects/IONIC/Timesheet/www/lib/ionic/js/ionic.bundle.min.js"
+    ]
+}
